@@ -18,13 +18,20 @@ You can install this package into your preferred Python environment using pip:
 $ pip install pyospackage_kkalinin
 ```
 
-TODO: Add a brief example of how to use the package to this section
+A simple Python package that demonstrates basic arithmetic utilities, including addition and multiplication functions.
 
 To use pyospackage_kkalinin in your code:
 
 ```python
->>> import pyospackage_kkalinin
->>> pyospackage_kkalinin.hello_world()
+
+>>> from pyospackage_kkalinin import example
+
+>>> example.add_numbers(3, 5)
+8
+
+>>> example.multiply_numbers(3, 5)
+15
+
 ```
 
 ## Copyright
