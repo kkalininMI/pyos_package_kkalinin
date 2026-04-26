@@ -3,9 +3,11 @@ A test module that tests multiply_numbers function with edge cases
 like Inf, NaN, and non-numeric inputs.
 """
 
+from pyospackage_kkalinin.example import multiply_numbers
+
 #from example import multiply_numbers
 #from pyospackage_kkalinin.example import multiply_numbers
-from src.pyospackage_kkalinin.example import multiply_numbers
+#from src.pyospackage_kkalinin.example import multiply_numbers
 import math
 
 def test_multiply_numbers_with_infinity():
